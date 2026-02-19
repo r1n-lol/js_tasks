@@ -1,0 +1,9 @@
+.completed{
+    text-decoration: line-through;
+    text-decoration-color: rgb(218, 131, 145) ;
+    text-decoration-thickness: 2px ;
+}
+
+.task{
+    cursor: pointer;
+}

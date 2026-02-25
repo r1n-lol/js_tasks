@@ -14,12 +14,12 @@ let item = {
     itemPrice,
 };
 
-let chosenProperty = item.itemName;
+let chosenProperty = "itemName";
 
 console.log( item[chosenProperty] );
 
 let discount = {
-    [chosenProperty]:15
+    [chosenProperty]: 15
 };
 
 console.log( discount );

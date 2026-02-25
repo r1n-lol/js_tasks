@@ -8,7 +8,7 @@ function isEmpty(obj){
     }
     return true;
 };
-obj.pet = "cat";
+
 console.log(obj)
  console.log(isEmpty(obj));
 

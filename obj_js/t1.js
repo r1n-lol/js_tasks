@@ -8,11 +8,13 @@
 // Ожидаемый результат: На последнем шаге объект user должен содержать только свойство surname: 'Smith'.
 
 
-let user = {
-    name: "John",
-    surname: "Smith",
-};
+let user = {};
 console.log(user);
+
+user["name"] = "John";
+user["surname"] = "Smith";
+console.log(user);
+
 
 user.name = "Pete";
 console.log(user);
